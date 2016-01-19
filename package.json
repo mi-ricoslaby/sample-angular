@@ -4,6 +4,10 @@
   "description": "Protect the earth from the bugs of the universe.",
   "main": "web.js",
   "scripts": {
+    "postinstall": "npm run build",
+    "prebuild": "mkdir -p web/js",
+    "build": "npm run build:js",
+    "build:js": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node web.js"
   },
@@ -18,6 +22,9 @@
   },
   "homepage": "https://github.com/byskr/sample-angular#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "angular": "^1.4.8",
+    "express": "^4.13.3",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.12.11"
   }
 }
