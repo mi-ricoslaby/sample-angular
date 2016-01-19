@@ -23,8 +23,10 @@
   "homepage": "https://github.com/byskr/sample-angular#readme",
   "dependencies": {
     "angular": "^1.4.8",
+    "angular-resource": "^1.4.8",
     "express": "^4.13.3",
     "json-loader": "^0.5.4",
+    "mi-angular-resource-builder": "0.0.8",
     "webpack": "^1.12.11"
   }
 }
