@@ -1,6 +1,6 @@
 {
   "name": "sample-angular",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Protect the earth from the bugs of the universe.",
   "main": "web.js",
   "scripts": {
