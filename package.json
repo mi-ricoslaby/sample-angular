@@ -4,7 +4,9 @@
   "description": "Protect the earth from the bugs of the universe.",
   "main": "web.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node web.js"
+
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/byskr/sample-angular/issues"
   },
-  "homepage": "https://github.com/byskr/sample-angular#readme"
+  "homepage": "https://github.com/byskr/sample-angular#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
