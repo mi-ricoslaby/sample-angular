@@ -1,10 +1,10 @@
 'use strict';
 
-function UserListController(userList) {
+function UserListController() {
     var vm = this;
 
     console.log('UserListController');
-    vm.userList = userList;
+    //vm.userList = userList;
 }
 
-module.exports = angular.controller(UserListController);
+module.exports = UserListController;

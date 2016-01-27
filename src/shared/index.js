@@ -2,7 +2,6 @@
 
 module.exports = require('angular')
     .module('shared', [
-        require('./resource').name
     ]) //modulename + Kindelemente
 
     .config(['ResourceBuilderProvider', function (ResourceBuilderProvider) {

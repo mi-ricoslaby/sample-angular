@@ -10,7 +10,7 @@ require('angular-ui-router');
 var requires = [
     'ngResource',
     'mi.ResourceBuilder',
-    'ui.Router',
+    'ui.router',
     require('./shared').name, //module shared -> eigener Ordner
     require('./components').name //module shared -> eigener Ordner
 ];
