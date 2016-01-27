@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/byskr/sample-angular.git"
+    "url": "git+https://github.com/ricoslaby/sample-angular.git"
   },
   "author": "skr <skr@byskr.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/byskr/sample-angular/issues"
+    "url": "https://github.com/ricoslaby/sample-angular/issues"
   },
-  "homepage": "https://github.com/byskr/sample-angular#readme",
+  "homepage": "https://github.com/ricoslaby/sample-angular#readme",
   "dependencies": {
     "angular": "^1.4.8",
     "angular-resource": "^1.4.8",
